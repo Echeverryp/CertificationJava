@@ -1,0 +1,4 @@
+Las clases enum no pueden tener instancias de Objetos
+Las clases enum no pueden tener constructor publico, solo privado
+La clase enum no puede ser privada ni protegida
+El constructor es obligatorio si se hacen declaraciones con () ya que hace referencia con el constructor al valor que se ingresa

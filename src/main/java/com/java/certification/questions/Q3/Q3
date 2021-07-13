@@ -1,0 +1,3 @@
+Funciones lambdas las cuales ya vienen implentadas desde java 8
+La interfaz consumer viene ya en la implementación de java 8 .. Esta interfaz solo muestra un mensaje
+no devuelve ningun valor

@@ -1,0 +1,159 @@
+**********************PALABRA FINAL EN JAVA**********************:
+
+uso de la palabra final:
+
+*En variables: evita cambiar el valor que almacena la variable
+
+*En metodos: evita que se modifique la definicion de un metodo desde una subclase
+
+*En clase: evita que se cree una subclase
+
+La variable final se combina con la palabra static para volverla en una constante dando a entender que no se puede cambiar el valor de esa variable y se podra acceder poniendo directamente le nombre de la clasen
+
+
+**********************ARGUMENTOS VARIABLES**********************:
+
+Cuando vamos a pasar los argumentos a un metodo , tenemos que trabajar con metodos de manera obligatorios
+(no tenemos que definir el numero de variables que vamos a enviar a un metodo)
+
+ejemplo= public void imprimirNumero(int … números) (se convierte en una especie de arreglo pero la ventaja con esto es que no sabemos el numero de
+ elemntnos que tenemos que pasar , mientras en un elemento de antemano ya sabemos el numero de elemtnos que vamos a enviar, pero internamente se trata como un arreglo)
+
+
+public void imprimirNumeros(int … números){
+
+for(int i=0; i<numeros.lenght(); i++){
+System.out.println(números[i])
+}
+}
+
+Se puede combinar otros argumentos en el metodo pero el varargs (argumentos variables) debe ser el ultimo agregado en el metodo
+
+public void imprimir(String nombre, int … numeros) (CORRECTO)
+public void imprimir (int … numeros, String nombre) (INCORRECTO)
+
+***********************BLOQUES DE INICIALIZACIÓN***********************:
+
+Existen bloques de inicializacion staticos y no estaticos  , ambos bloques se ejecutan antes del constructor
+
+Los bloques de inciializacion staticos se ejecutan antes de los bloques de inicialización no staticos
+
+Solo las variables staticas pueden acceder a un bloque de incializacion statico
+
+Ejemplo:
+Bloque de incialización static:
+
+static{
+System.out.println(“Soy un bloque de incializacion estático")
+}
+
+{
+System.out.println(“Soy un bloque de incialización no estático")
+}
+
+El inicializador no estatico se ejecuta cada vez que inicialicemos una instancia de la clase , mientras que el statico que solo se ejecuta la primera vez que se carga en memoria la clase
+
+(“”””VAR SOLO SE USAN PARA VARIABLES LOCALES tipo primitivo o object QUE NO SEAN DE TIPIO ARRAY”””)
+
+
+*AUTOBOXING Y UNBOXING*
+
+Cada uno de los itpos primitivos tiene una clase en java asociada conocida como clase wraper (clase envolvente)
+//Clases envolventes para tipos primitivos
+Int: Integer
+long:Long
+float:Float
+double:Double
+boolean-Boolean
+byte-Byte
+char-Character
+short-Short
+las clases envolventes contienen atributos y metodos a diferencia de los tipos primitivos que solo almacenan un valor pero no tienen ni atributos ni metodos
+si se van a hacer calculos exhaustivos es recomendable usar el tipo primitivo pero si no se van a hacer muchos calculos se pueden usar el tipo object ya que con ese podemos usar conversiones de una forma mas simple
+
+Unboxing:
+Integer numero=10;
+ int numero=numeroInteger; // EXTRAEMOS EL VALOR PRIMITIVO ALMACENADO EN UNA VARIABLE TIPO OBJET(numero) Y SE EXTRAE PARA ASIGNAR EN TIPO PRIMITIVO
+
+Autoboxing:
+Integer entero=10; //TIPO PRIMITIVO A OBJECT
+
+
+MODIFICADORES DE ACCESO:
+Public: Se pueden nombrar clases publicas, variables,metodos y constructores (Menos restrictivo) ( se puede llamar desde donde sea)
+protected: No se pueden nombrar clases protected, si se pueden variables,metodos y constructores ( se puede llamar desde otros paquetes)
+Default o package: Modificador de ausencia de cualquier modificador (Si se pueden clases, variables,metodos y constructores)  (Un modificador default no puede ser usado por una clase fuera del paquete en el que se encuentra)
+private: No aplica a clases, aplica para variables, metodos y constructora (Mas restrictivo)
+
+POLIMORFISMO:
+Multiples comportamientos
+
+CLASE ABSTRACTA
+
+Clase abstracta se usa para definir metodos que no tienen ninguna implementacion  (si una clase tiene un metodo abstracta, toda la clase se tiene que marcar como abstracta) (se pueden crear clases abstractas sin metodos abstractos, pero cuando una clase es abstracta significa que por lo menos tiene un metodo abstracto)
+
+cuando una clase se marca como abstracta no se pueden crear instancias del mismo (muchas veces se crean como abstractos , no porque tengan metodos abstractos, sino para que no se creen instancias de la clase )
+
+INTERFACES
+Los metodos tampoco tienen implementación por ende son metodos abstractos sin embargo la interfaces es un nuevo tipo en java ( si agregamos atrinbutos a una interfaz , van a ser constantes es decir que en automatico son public final static)
+
+CUANDO USAR CLASES ABSTRACTAS O INTERFACES? Cuando las características de nuestra clase son muy parecida (Ejemplo figurageometrica se relaciona con una clase cuadro,triangulo,circulo) se encuentra una relacion de herencia, en este tipo de casos es mas conveniente usar clase abstracta sin embargo cuando la relacion entre clases no es tanto por características, sino mas bien por comportamiento se usa interfaces
+
+CLASE SERIALIZABLE: (implements Serializable)(JavaBeans)
+Si un objeto se va a envia a un servidor el concepto de serializacion convierte el objeto de 0 a 1 los convierte a bits cuando lo envia a la red los convierte a 0 y 1 y cuando se recibe el objeto en el otro lado del servidor se hace uso del concepto desearlización ( de 0 a 1 vuelve a construir el objeto) se pueda transferir a otro servidor de manera a automática
+
+
+COLLECTION->SET , LIST
+Los set son arreglos que no permiten tener duplicidad y estan desorganizados
+SET->HASHSET
+LIST->ARRAYLIST
+
+MAP->HASHMAP
+
+INTERFACES FUNCIONALES
+Interfaces que tienen solo un metodo abstracto el resto son estaticos o privados (Si una interfz tiene mas de dos metodos abstractos , ya no es una interfaz funcional)
+
+PROGRAMACION FUNCIONAL (INTERFACES FUNCIONALES)
+
+LAMBDAS
+Consumer<String> lambda =x->System.out.println(x); PERMITIDO
+Consumer<String> lambda =(x)->System.out.println(x); PERMITIDO
+Consumer<String> lambda =String x->System.out.println(x); NO PERMITIDO
+Consumer<String> lambda =(String x)->System.out.println(x); PERMITIDO
+Consumer<String> lambda =x,y->System.out.println(x); NO PERMITIO
+Consumer<String> lambda =(x,y)->System.out.println(x); PERMITIO
+Consumer<String> lambda =(STRING x,y)->System.out.println(x); NO PERMITIO
+
+OPTIONALS:
+Objeto envolvente que protege contra valores nulos
+
+METODOS REFERENCIADOS:
+No permite enviar parametros por el momento
+“::”
+
+SOBRE CARGA DE METODOS:
+Cuando se crean metodos con el mismo nombre en la misma clase pero diferenciandolo con los parametros que se envían
+ejemplo:
+
+public void hola()
+
+public void hola(String mensaje)
+
+public void hola (Integer mensaje)
+
+Se diferencia por el tipo de parametros que se envie o la cantidad de parametros pero no por el valor que retorna
+
+El siguiente ejemplo es erroneo:
+
+public void hola()    X ESTO GENERARIA ERROR
+public String hola() X
+
+COMPARATOR:
+CompareTo se usa para comparar referencias, en el caso de numeros si se hace un compare to se devuelve un 0 si los numeros son iguales, 1 si el numero es mayor y -1 si el numero es menor
+
+Pero en el caso de strings la comparación se hace por medio de la tabla ASCII
+
+Collections.sort se encarga de organizar los caracteres por medio de la tabla , se pueden crear clases que se encarguen de hacer comparaciónes haciendo una implementación de la interfaz  Comparator
+
+Ejemplo con objeto:
+public class personaComparator implements Comparator<Persona>

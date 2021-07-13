@@ -1,0 +1,7 @@
+Lo primero que tenemos que saber es que los métodos default de Java sólo se permiten introducir en interfaces,
+por lo tanto no existen en clases. Estos métodos, al igual que todos los demás en las interfaces, son de manera
+implícita públicos. Su principal diferencia es que no son abstractos como el resto y necesitan proporcionar una
+implementación para pasar la fase de compilación.
+
+Hasta ahora, cuando implementábamos una interfaz en una clase, ésta nos obligaba a implementar también todos sus métodos.
+Sin embargo no pasa lo mismo con los métodos default que ya estarán disponibles en esas clases sin haberlos implementado

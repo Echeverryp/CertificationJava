@@ -1,0 +1,6 @@
+SUPPLIER*****************
+Supplier<String> supplier=() -> "Hola";
+supplier.get(); "/Retorna Hola/"
+SUPPLIER DEVUELVE UN VALOR
+
+CONSUMER****************
