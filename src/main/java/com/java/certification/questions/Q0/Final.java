@@ -6,6 +6,7 @@ public class Final {
     protected final String VARIABLE_PROTECTED="HOLAMUNDOPROTECTED";
     final static String VARIABLE_STATIC_FINAL="HOLAMUNDOFINALSTATIC";
 
+
     public String getVARIABLE_PUBLIC() {
         return VARIABLE_PUBLIC;
     }

@@ -173,6 +173,7 @@ public class Collection {
         //La clase Java TreeSet implementa la interfaz Set que usa un árbol para el almacenamiento.
         // Al igual que HashSet, TreeSet también contiene elementos únicos. Sin embargo, el tiempo de acceso y recuperación de
         // TreeSet es bastante rápido. Los elementos en TreeSet almacenados en orden ascendente.
+        //Los ordena por defecto , ejemplo con string los ordena por oden alfabetico
         TreeSet<String> treeSet=new TreeSet<String>();
         treeSet.add("Ravi");
         treeSet.add("Vijay");

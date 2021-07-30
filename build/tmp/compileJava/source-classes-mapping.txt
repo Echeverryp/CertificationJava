@@ -1,111 +1,274 @@
-com/java/certification/questions/Q1/MainEnum.java
- com.java.certification.questions.Q1.MainEnum
+com/java/certification/questions/Lists/TreeSetTest.java
+ com.java.certification.questions.Lists.TreeSetTest
+ com.java.certification.questions.Lists.TreeSetTest$Articulo
+com/java/certification/questions/ProgramacionGenerica/UsoClaseGenerica.java
+ com.java.certification.questions.ProgramacionGenerica.UsoClaseGenerica
+ com.java.certification.questions.ProgramacionGenerica.UsoClaseGenerica$Persona
+com/java/certification/questions/Hilos/SincronizandoHilos.java
+ com.java.certification.questions.Hilos.SincronizandoHilos
+ com.java.certification.questions.Hilos.SincronizandoHilos$HilosVarios
+ com.java.certification.questions.Hilos.SincronizandoHilos$HilosVariosDos
+com/java/certification/questions/Lambdas/calcularPromedio.java
+ com.java.certification.questions.Lambdas.calcularPromedio
+com/java/certification/questions/Optionals/TestOptionals.java
+ com.java.certification.questions.Optionals.TestOptionals
+com/java/certification/questions/UnaryOperator/UnaryOperatorTest.java
+ com.java.certification.questions.UnaryOperator.UnaryOperatorTest
+com/java/certification/questions/Q22/Plant.java
+ com.java.certification.questions.Q22.Plant
+com/java/certification/questions/ProgramacionGenerica/MetodosGenericos.java
+ com.java.certification.questions.ProgramacionGenerica.MetodosGenericos
+ com.java.certification.questions.ProgramacionGenerica.MetodosGenericos$MisMatrices
+com/java/certification/questions/Q38/Q38.java
+ com.java.certification.questions.Q38.Q38
+com/java/certification/questions/JDBC/ModificaDB.java
+ com.java.certification.questions.JDBC.ModificaDB
+com/java/certification/questions/ProgramacionGenerica/ClaseGenerica.java
+ com.java.certification.questions.ProgramacionGenerica.ClaseGenerica
+com/java/certification/questions/Q8/PredicateTest.java
+ com.java.certification.questions.Q8.PredicateTest
+ com.java.certification.questions.Q8.PredicateTest$1
+com/java/certification/questions/StringBuilder/TestStringBuilder.java
+ com.java.certification.questions.StringBuilder.TestStringBuilder
+com/java/certification/questions/Collecciones/CuentasUsuariosIterator.java
+ com.java.certification.questions.Collecciones.CuentasUsuariosIterator
+com/java/certification/questions/Q8/FunctionTest.java
+ com.java.certification.questions.Q8.FunctionTest
+ com.java.certification.questions.Q8.FunctionTest$1
+com/java/certification/questions/Q0/Final.java
+ com.java.certification.questions.Q0.Final
+com/java/certification/questions/Q34/Q34.java
+ com.java.certification.questions.Q34.Q34
+com/java/certification/questions/Q30/Q30.java
+ com.java.certification.questions.Q30.Q30
+com/java/certification/questions/ProgramacionGenericaConHerencia/Jefe.java
+ com.java.certification.questions.ProgramacionGenericaConHerencia.Jefe
+com/java/certification/questions/Q3/Q3.java
+ com.java.certification.questions.Q3.Q3
+com/java/certification/questions/Q16/Q16FiveImple.java
+ com.java.certification.questions.Q16.Q16FiveImple
 com/java/certification/questions/Q13/Q13.java
  com.java.certification.questions.Q13.Q13
+com/java/certification/questions/Q0/Autoboxing.java
+ com.java.certification.questions.Q0.Autoboxing
+com/java/certification/questions/Q16/Q16FirstImple.java
+ com.java.certification.questions.Q16.Q16FirstImple
+com/java/certification/questions/Q16/IQ16.java
+ com.java.certification.questions.Q16.IQ16
+com/java/certification/questions/Q0/AbstractExtends.java
+ com.java.certification.questions.Q0.AbstractExtends
+com/java/certification/questions/Hilos/UsoThreads.java
+ com.java.certification.questions.Hilos.LaminaPelota
+ com.java.certification.questions.Hilos.MarcoRebote
+ com.java.certification.questions.Hilos.MarcoRebote$1
+ com.java.certification.questions.Hilos.MarcoRebote$2
+ com.java.certification.questions.Hilos.MarcoRebote$3
+ com.java.certification.questions.Hilos.MarcoRebote$4
+ com.java.certification.questions.Hilos.MarcoRebote$5
+ com.java.certification.questions.Hilos.MarcoRebote$6
+ com.java.certification.questions.Hilos.Pelota
+ com.java.certification.questions.Hilos.PelotaHilo
+ com.java.certification.questions.Hilos.UsoThreads
+com/java/certification/questions/Q17/Q17.java
+ com.java.certification.questions.Q17.Q17
+com/java/certification/questions/Q8/SupplierTest.java
+ com.java.certification.questions.Q8.SupplierTest
+com/java/certification/questions/Lambdas/Ejercicio/main/App.java
+ com.java.certification.questions.Lambdas.Ejercicio.main.App
+com/java/certification/questions/Q0/FinalTest.java
+ com.java.certification.questions.Q0.FinalTest
+com/java/certification/questions/ProgramacionGenericaConHerencia/Empleado.java
+ com.java.certification.questions.ProgramacionGenericaConHerencia.Empleado
+com/java/certification/questions/Q7/Q7.java
+ com.java.certification.questions.Q7.Q7
+com/java/certification/questions/Q37/A.java
+ com.java.certification.questions.Q37.A
+com/java/certification/questions/Q36/MyInterface1.java
+ com.java.certification.questions.Q36.MyInterface1
+ com.java.certification.questions.Q36.MyInterface2
+ com.java.certification.questions.Q36.MyInterface3
+ com.java.certification.questions.Q36.MyInterface4
+ com.java.certification.questions.Q36.MyInterface5
+com/java/certification/questions/Q39/Q39.java
+ com.java.certification.questions.Q39.Q39
+ com.java.certification.questions.Q39.Q39$Machine
+com/java/certification/questions/Q26/Q26.java
+ com.java.certification.questions.Q26.Q26
+com/java/certification/questions/ProgramacionGenericaConHerencia/HerenciaGenericaMain.java
+ com.java.certification.questions.ProgramacionGenericaConHerencia.HerenciaGenericaMain
+com/java/certification/questions/ArrayList/Empleado.java
+ com.java.certification.questions.ArrayList.Empleado
+com/java/certification/questions/Q0/BloqIniciali.java
+ com.java.certification.questions.Q0.BloqIniciali
+com/java/certification/questions/Collecciones/PruebaMaps.java
+ com.java.certification.questions.Collecciones.PruebaMaps
+ com.java.certification.questions.Collecciones.PruebaMaps$Empleado
+com/java/certification/questions/Q0/BloqInicialiNS.java
+ com.java.certification.questions.Q0.BloqInicialiNS
+com/java/certification/questions/Q10/CustomType.java
+ com.java.certification.questions.Q10.CustomType
+com/java/certification/questions/Q40/Q40.java
+ com.java.certification.questions.Q40.Q40
+ com.java.certification.questions.Q40.Q40$Item
+com/java/certification/questions/Q9/Plushy.java
+ com.java.certification.questions.Q9.Plushy
+com/java/certification/questions/ArrayList/MainArray.java
+ com.java.certification.questions.ArrayList.MainArray
+com/java/certification/questions/Herencia/PersonaExtended.java
+ com.java.certification.questions.Herencia.PersonaExtended
+com/java/certification/questions/JDBC/Consulta_Preparada.java
+ com.java.certification.questions.JDBC.Consulta_Preparada
+com/java/certification/questions/Hilos/SincronizandoHilosDos.java
+ com.java.certification.questions.Hilos.SincronizandoHilosDos
+ com.java.certification.questions.Hilos.SincronizandoHilosDos$HilosVarios
+ com.java.certification.questions.Hilos.SincronizandoHilosDos$HilosVariosDos
+com/java/certification/questions/Streams/StreamFichero.java
+ com.java.certification.questions.Streams.StreamFichero
+com/java/certification/questions/ProgramacionGenericaConHerencia/ClaseGenericaHerencia.java
+ com.java.certification.questions.ProgramacionGenericaConHerencia.ClaseGenericaHerencia
+com/java/certification/questions/Q1/MainEnum.java
+ com.java.certification.questions.Q1.MainEnum
 com/java/certification/questions/Q14/Q14.java
  com.java.certification.questions.Q14.Q14
+com/java/certification/questions/Q21/Q21.java
+ com.java.certification.questions.Q21.Q21
+com/java/certification/questions/Q5/Q5.java
+ com.java.certification.questions.Q5.Q5
+ com.java.certification.questions.Q5.Q5$1Computer
+com/java/certification/questions/Q41/Test.java
+ com.java.certification.questions.Q41.Test
+com/java/certification/questions/Q22/Tulip.java
+ com.java.certification.questions.Q22.Tulip
+com/java/certification/questions/FileExample/PruebaFile.java
+ com.java.certification.questions.FileExample.PruebaFile
+com/java/certification/questions/Q0/Talla.java
+ com.java.certification.questions.Q0.Talla
+com/java/certification/questions/Q0/TallaMain.java
+ com.java.certification.questions.Q0.TallaMain
+com/java/certification/questions/Q29/Q29.java
+ com.java.certification.questions.Q29.Q29
+com/java/certification/questions/Q1/Enum.java
+ com.java.certification.questions.Q1.Enum
+com/java/certification/questions/Q12/X.java
+ com.java.certification.questions.Q12.X
+com/java/certification/questions/JDBC/Conecta_Prueba.java
+ com.java.certification.questions.JDBC.Conecta_Prueba
+com/java/certification/questions/Q25/Q25.java
+ com.java.certification.questions.Q25.Q25
+com/java/certification/questions/Q8/ConsumerTest.java
+ com.java.certification.questions.Q8.ConsumerTest
+com/java/certification/questions/Q9/PriceChecker.java
+ com.java.certification.questions.Q9.PriceChecker
+com/java/certification/questions/Q12/Y.java
+ com.java.certification.questions.Q12.Y
+com/java/certification/questions/Collecciones/Prueba_TreeSet.java
+ com.java.certification.questions.Collecciones.Articulo
+ com.java.certification.questions.Collecciones.ArticuloSinImplementarComparator
+ com.java.certification.questions.Collecciones.ComparadorArticulos
+ com.java.certification.questions.Collecciones.Prueba_TreeSet
+ com.java.certification.questions.Collecciones.Prueba_TreeSet$1
+com/java/certification/questions/Collection.java
+ com.java.certification.questions.Collection
+com/java/certification/questions/Q31/Resource.java
+ com.java.certification.questions.Q31.Resource
+ com.java.certification.questions.Q31.Resource$Worker
+com/java/certification/questions/Q37/C.java
+ com.java.certification.questions.Q37.C
+com/java/certification/questions/Lambdas/Ejercicio/models/Product.java
+ com.java.certification.questions.Lambdas.Ejercicio.models.Product
+com/java/certification/questions/Q32/Q32.java
+ com.java.certification.questions.Q32.Q32
+com/java/certification/questions/Q18/TestImp.java
+ com.java.certification.questions.Q18.TestImp
+com/java/certification/questions/Collecciones/Cliente.java
+ com.java.certification.questions.Collecciones.Cliente
+com/java/certification/questions/PersonaInterface.java
+ com.java.certification.questions.PersonaInterface
+com/java/certification/questions/HilosSincronizadosBanco/BancoSinSincronizar.java
+ com.java.certification.questions.HilosSincronizadosBanco.Banco
+ com.java.certification.questions.HilosSincronizadosBanco.Banco$EjecucionTransferencia
+ com.java.certification.questions.HilosSincronizadosBanco.BancoSinSincronizar
+com/java/certification/questions/Q0/Unboxing.java
+ com.java.certification.questions.Q0.Unboxing
 com/java/certification/questions/Q15/Q15.java
  com.java.certification.questions.Q15.Q15
 com/java/certification/questions/Q11/Q11.java
  com.java.certification.questions.Q11.Q11
  com.java.certification.questions.Q11.Q11$GeneralException
  com.java.certification.questions.Q11.Q11$SpecificException
-com/java/certification/questions/Q16/Q16FirstImple.java
- com.java.certification.questions.Q16.Q16FirstImple
 com/java/certification/questions/Q9/Product.java
  com.java.certification.questions.Q9.Product
 com/java/certification/questions/Q19/Q19.java
  com.java.certification.questions.Q19.Q19
 com/java/certification/questions/Q20/Q20.java
  com.java.certification.questions.Q20.Q20
-com/java/certification/questions/Q21/Q21.java
- com.java.certification.questions.Q21.Q21
-com/java/certification/questions/Q16/IQ16.java
- com.java.certification.questions.Q16.IQ16
-com/java/certification/questions/Q5/Q5.java
- com.java.certification.questions.Q5.Q5
- com.java.certification.questions.Q5.Q5$1Computer
-com/java/certification/questions/Q22/Tulip.java
- com.java.certification.questions.Q22.Tulip
-com/java/certification/questions/Q22/Plant.java
- com.java.certification.questions.Q22.Plant
-com/java/certification/questions/Q17/Q17.java
- com.java.certification.questions.Q17.Q17
-com/java/certification/questions/Q8/SupplierTest.java
- com.java.certification.questions.Q8.SupplierTest
-com/java/certification/questions/Q0/FinalTest.java
- com.java.certification.questions.Q0.FinalTest
-com/java/certification/questions/Q1/Enum.java
- com.java.certification.questions.Q1.Enum
-com/java/certification/questions/Q12/X.java
- com.java.certification.questions.Q12.X
-com/java/certification/questions/Q7/Q7.java
- com.java.certification.questions.Q7.Q7
-com/java/certification/questions/Q8/ConsumerTest.java
- com.java.certification.questions.Q8.ConsumerTest
-com/java/certification/questions/Q9/PriceChecker.java
- com.java.certification.questions.Q9.PriceChecker
-com/java/certification/questions/Q8/PredicateTest.java
- com.java.certification.questions.Q8.PredicateTest
- com.java.certification.questions.Q8.PredicateTest$1
-com/java/certification/questions/Q16/Q16FiveImple.java
- com.java.certification.questions.Q16.Q16FiveImple
+com/java/certification/questions/Q37/B.java
+ com.java.certification.questions.Q37.B
+com/java/certification/questions/Serializable/Serializacion.java
+ com.java.certification.questions.Serializable.Serializacion
+ com.java.certification.questions.Serializable.Serializacion$Administrador
+ com.java.certification.questions.Serializable.Serializacion$Empleado
+com/java/certification/questions/Q0/VariableAguments.java
+ com.java.certification.questions.Q0.VariableAguments
+com/java/certification/questions/Collecciones/PruebaLinkedList.java
+ com.java.certification.questions.Collecciones.PruebaLinkedList
+com/java/certification/questions/Streams/LecturaEscrituraBytes.java
+ com.java.certification.questions.Streams.LecturaEscrituraBytes
+com/java/certification/questions/Q28/Q28.java
+ com.java.certification.questions.Q28.Q28
+com/java/certification/questions/Lambdas/LambdaApp.java
+ com.java.certification.questions.Lambdas.LambdaApp
+ com.java.certification.questions.Lambdas.LambdaApp$1
+ com.java.certification.questions.Lambdas.LambdaApp$2
 com/java/certification/questions/Q1/Q1.java
  com.java.certification.questions.Q1.Q1
-com/java/certification/questions/Q12/Y.java
- com.java.certification.questions.Q12.Y
 com/java/certification/questions/Q6/Q6.java
  com.java.certification.questions.Q6.Q6
  com.java.certification.questions.Q6.Q6$1
  com.java.certification.questions.Q6.Q6$2
+com/java/certification/questions/Collecciones/PruebaListaEnlazada.java
+ com.java.certification.questions.Collecciones.PruebaListaEnlazada
 com/java/certification/questions/Q18/TestInterface.java
  com.java.certification.questions.Q18.TestInterface
-com/java/certification/questions/Q10/CustomType.java
- com.java.certification.questions.Q10.CustomType
-com/java/certification/questions/Q8/FunctionTest.java
- com.java.certification.questions.Q8.FunctionTest
- com.java.certification.questions.Q8.FunctionTest$1
-com/java/certification/questions/Q9/Plushy.java
- com.java.certification.questions.Q9.Plushy
-com/java/certification/questions/Q0/Final.java
- com.java.certification.questions.Q0.Final
-com/java/certification/questions/Q18/TestImp.java
- com.java.certification.questions.Q18.TestImp
+com/java/certification/questions/Herencia/Persona.java
+ com.java.certification.questions.Herencia.Persona
+com/java/certification/questions/Q0/AbstractClass.java
+ com.java.certification.questions.Q0.AbstractClass
+com/java/certification/questions/Herencia/PersonaExtendedDos.java
+ com.java.certification.questions.Herencia.PersonaExtendedDos
+com/java/certification/questions/Lambdas/Ejercicio/models/Person.java
+ com.java.certification.questions.Lambdas.Ejercicio.models.Person
 com/java/certification/questions/Q2/I1FunctionInterface.java
  com.java.certification.questions.Q2.I1FunctionInterface
+com/java/certification/questions/Q33/Q33.java
+ com.java.certification.questions.Q33.Q33
 com/java/certification/questions/Q23/Test.java
  com.java.certification.questions.Q23.Sub
  com.java.certification.questions.Q23.Super
  com.java.certification.questions.Q23.Test
 com/java/certification/questions/Q9/Electronics.java
  com.java.certification.questions.Q9.Electronics
-com/java/certification/questions/Q3/Q3.java
- com.java.certification.questions.Q3.Q3
-com/java/certification/questions/Q0/VariableAguments.java
- com.java.certification.questions.Q0.VariableAguments
-com/java/certification/questions/Q0/Autoboxing.java
- com.java.certification.questions.Q0.Autoboxing
-com/java/certification/questions/Q0/BloqIniciali.java
- com.java.certification.questions.Q0.BloqIniciali
-com/java/certification/questions/Q0/BloqInicialiNS.java
- com.java.certification.questions.Q0.BloqInicialiNS
-com/java/certification/questions/Q0/AbstractClass.java
- com.java.certification.questions.Q0.AbstractClass
-com/java/certification/questions/Q0/Unboxing.java
- com.java.certification.questions.Q0.Unboxing
-com/java/certification/questions/Collection.java
- com.java.certification.questions.Collection
-com/java/certification/questions/Q0/AbstractExtends.java
- com.java.certification.questions.Q0.AbstractExtends
-com/java/certification/questions/Herencia/Persona.java
- com.java.certification.questions.Herencia.Persona
-com/java/certification/questions/Q0/Talla.java
- com.java.certification.questions.Q0.Talla
-com/java/certification/questions/Q0/TallaMain.java
- com.java.certification.questions.Q0.TallaMain
-com/java/certification/questions/Herencia/PersonaExtended.java
- com.java.certification.questions.Herencia.PersonaExtended
-com/java/certification/questions/Herencia/PersonaExtendedDos.java
- com.java.certification.questions.Herencia.PersonaExtendedDos
-com/java/certification/questions/PersonaInterface.java
- com.java.certification.questions.PersonaInterface
+com/java/certification/questions/Q44/Y.java
+ com.java.certification.questions.Q44.Y
+com/java/certification/questions/Q47/Q47.java
+ com.java.certification.questions.Q47.Q47
+com/java/certification/questions/Q45/Test.java
+ com.java.certification.questions.Q45.Test
+ com.java.certification.questions.Q45.Test$L
+ com.java.certification.questions.Q45.Test$M
+ com.java.certification.questions.Q45.Test$N
+com/java/certification/questions/Q42/Q42.java
+ com.java.certification.questions.Q42.Q42
+com/java/certification/questions/Q48/Q48.java
+ com.java.certification.questions.Q48.Q48
+com/java/certification/questions/Q43/Test.java
+ com.java.certification.questions.Q43.Test
+com/java/certification/questions/Q44/X.java
+ com.java.certification.questions.Q44.X
+com/java/certification/questions/Q49/Test.java
+ com.java.certification.questions.Q49.Test
+com/java/certification/questions/Q43/Hello.java
+ com.java.certification.questions.Q43.Hello
+ com.java.certification.questions.Q43.Hello$Greeting
+com/java/certification/questions/Q50/Test.java
+ com.java.certification.questions.Q50.Test

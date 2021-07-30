@@ -2,12 +2,21 @@ package com.java.certification.questions.Herencia;
 
 public class Persona {
 
-
+    public static String id="1";
     private String nombre;
     private String apellido;
     private String genero;
     private Integer edada;
     protected String protegido;
+    public String pruebaPublic;
+
+    public String getPruebaPublic() {
+        return pruebaPublic;
+    }
+
+    public void setPruebaPublic(String pruebaPublic) {
+        this.pruebaPublic = pruebaPublic;
+    }
 
     public Persona(String nombre, String apellido, String genero, Integer edada, String protegido) {
         this.nombre = nombre;

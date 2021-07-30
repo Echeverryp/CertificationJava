@@ -1,0 +1,54 @@
+COLLECTION:
+
+Set: se usa para almacenar elementos no repetidos sin ordenar
+
+List: pueden estar repetidos y indexados por valores numericos
+
+Queue: No permite el acceso aleatorio y solo se pueden acceder a elementos al comienzo o al final de la cola
+
+Map: Permite crear una collecion de elementos repetibles ingresados por clave unica arbitraria (Valor clave que no necesariamente
+tiene que ser numerico)
+
+------------------------
+
+****List -> ArrayList,LinkedList,Vector,CopyOnWriteArrayList
+-Ventaja : Acceso Aleatorio, Están Ordenadas (collection.sort()) , Añadir / eliminar sin restriccion,
+ListIterator modifica en cualquier direccion, Sintaxis similar a array
+-Desventajas: Bajo rendimiento en operaciones concretas que se resolverian mejor con otras interfaces
+
+ARRAYLIST: Muy rapida accediendo a elementos, Se adapta a un gran numero de escenarios
+LINKEDLIST: Listas enlazadas, Gran eficiencia agregando y eliminando elementos
+VECTOR: Considerada obsoleta, utilizada unicamente en operaciones de concurrencia
+COPYONWRITEARRAYLIST: Utilizada en programas concurrentes, Eficiente en operaciones de lectura pero muy poco eficiente en operaciones de
+escritura
+
+****Set->Hashset,LinkedHashSet,TreeSet,EnumSet,CopyOnWriteArraySet,ConcurrentSkipListSet
+
+-Ventaja : No permite elementos duplicados, Uso sencillo del metodo add que ademas asegura no elementos duplicados
+-Desventajas: No tiene acceso aleatorio, Poca eficiencia a la hora de ordenar elementos (Y no siempre se puede)
+HASHSET: Rapida, no duplicados, no ordenación, no acceso aleatorio
+LINKEDHASHSET: Ordenación por entrada, Eficiencia al acceder, No eficiencia al agregar
+TREESET:Es ordenado, poco eficiente
+ENUMSET: La mejor para tipos enumerados
+COPYONWRITEARRAYSET: Específico concurrencia, eficiencia lectura, poca eficiencia escritura, poca eficiencia al eliminar
+CONCURRENTSKIPLISTSET: Específico concurrencia, admite ordenacion, con muchos elementos no es eficiente
+
+****Queue->ArrayDeque,LinkedBlockingDeque,LinkedList,PriorityQueue,PriorityBlockingQueue
+-Ventaja : Muy rapida para acceder al primer y ultimo elemento, Permite crear colas de elementos muy eficientes (LIFO/FIFO)
+-Desventajas: Acceso lento a los elementos intermedios
+
+ARRAYDEQUE:Gran eficiencia, la mas utilizada
+LINKEDBLOCKINGDEQUE:Utilizado en programas concurrentes
+LINKEDLIST:Rendimiento inferior a arraydeque
+PRIORITYQUEUE: Para utilizar un comparator, el primer elemento dependera de propiedad elegida
+PRIORITYBLOCKINGQUEUE: Igual que el anterior pero mas eficiencia en programacion concurrente
+
+****Map->Hashmap,LinkedHashMap,TreeMap,EnumMap,WeakHashMap,HashTable,ConcurrentHashMap
+
+HASHMAP: No ordenación, Eficiente
+LINKEDHASHMAP: Ordenado por inserccion, Permite ordenacion por uso, Eficiente lectura, Poca eficiencia escritura
+TREEMAP: Ordenado por clave, Poca eficiencia en todas susu operaciones
+ENUMMAP: Permite enum como claves, muy eficiente
+WEAKHASHMAP: Utilizado para crear elementos que vaya borrando el sistema si no se utilizan, Muy poco eficiente
+HASHTABLE: Considerado obsoleto, Utilizado en operaciones de concurrencia
+CONCURRENTHASHMAP: Utilizado en concurrencia, No permite Nulos

@@ -8,6 +8,9 @@ public class Tulip extends Plant{
         feed(plant);
         feed(plant);
 
+        Plant plantT=new Plant();
+        feed(plantT);
+
     }
 
     public static void feed(Plant plant){

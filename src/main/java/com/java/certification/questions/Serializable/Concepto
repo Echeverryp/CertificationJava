@@ -1,0 +1,5 @@
+Convertir un objeto en bytes (poder almacenar ese objeto en un medio de almacenamiento y en el futuro reconstruir
+ese objeto en el momento
+que lo serializamos) (distribuirlo atraves de la red en ordenadores remotos y que este objeto sea restablecido
+ en el estado de cuando
+se serializo )

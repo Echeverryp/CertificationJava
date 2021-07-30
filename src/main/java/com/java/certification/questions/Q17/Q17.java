@@ -14,5 +14,6 @@ public class Q17 {
 
 
         fruits.replaceAll(functio);
+        System.out.println(fruits);
     }
 }

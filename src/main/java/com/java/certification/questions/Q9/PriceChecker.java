@@ -14,7 +14,9 @@ public class PriceChecker <T extends Product>{
 
     public static void main(String[] args) {
         PriceChecker<Electronics> a =new PriceChecker<>(new Electronics(100.00));
+
         PriceChecker<Plushy> b=new PriceChecker<>(new Plushy(1.0));
+
         System.out.println(a.isPriceEqual(b));
     }
 }

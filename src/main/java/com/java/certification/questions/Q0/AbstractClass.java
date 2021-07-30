@@ -1,6 +1,12 @@
 package com.java.certification.questions.Q0;
 
 public abstract class AbstractClass {
+    public static String hola="ABC";
+    
+    public String getHola(){
+        hola="ABCD";
+        return hola;
+    }
 
     public abstract void holaAbstractPublic();
 

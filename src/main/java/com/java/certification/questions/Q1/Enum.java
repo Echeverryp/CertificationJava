@@ -8,4 +8,12 @@ enum Enum {
     Enum(String s) {
         this.s=s;
     }
+
+    protected String getS() {
+        return s;
+    }
+
+    public void setS(String s) {
+        this.s = s;
+    }
 }

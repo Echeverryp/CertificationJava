@@ -1,13 +1,16 @@
 package com.java.certification.questions.Q23;
 
  class Super {
-     static String greeting() { return "Good night";}
+     static String greeting() {
+         return "Good night";
+     }
 
      String name() {
          return "Harry";
      }
  }
      class Sub extends Super{
+
          static String greeting(){
              return "Good Morning";
          }
