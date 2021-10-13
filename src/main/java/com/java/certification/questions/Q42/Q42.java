@@ -12,12 +12,17 @@ public class Q42 {
             System.out.println();
             //Cuando es list of no se pueden agregar mas elementos
             lst.add("");
-           // lst.add(2, 3);                                //line n1
+            lst.add(2, 3);                                //line n1
             for (int c = 0; c < lst.size(); c++) {
                //display(lst.get(c));
             }
         }
 
+        //NO SE PUEDE PONER UN VAR EN UN PARAMETRO
+      /*  public static void display (var c){
+
+        }
+*/
 
     }
 

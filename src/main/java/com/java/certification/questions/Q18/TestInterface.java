@@ -15,7 +15,7 @@ public interface TestInterface {
     }
 
 
-    static void probeProcedure(){
+    private void probeProcedure(){
         System.out.println("Launch Probe");
         System.out.println("Land on Asteroid");
     }

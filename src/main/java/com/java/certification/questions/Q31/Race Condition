@@ -1,0 +1,14 @@
+
+La condición de carrera en Java ocurre en un entorno de subprocesos múltiples cuando más de un
+subproceso intenta acceder a un recurso compartido (modificar, escribir) al mismo tiempo.
+Dado que varios subprocesos intentan competir entre sí para terminar de ejecutar un método,
+se denomina condición de carrera.
+
+Dos puntos a tener en cuenta sobre la condición de la carrera son:
+Es seguro si varios subprocesos intentan leer un recurso compartido siempre que no intenten cambiarlo.
+La ejecución de varios subprocesos dentro de un método no es un problema en sí mismo, el problema surge cuando
+ estos subprocesos intentan acceder al mismo recurso. Ejemplos de recursos compartidos son variables de
+ clase, registro de base de datos en una tabla, escritura en un archivo.
+
+
+ https://www.netjstech.com/2015/06/race-condition-in-java-multi-threading.html

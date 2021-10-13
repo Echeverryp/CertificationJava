@@ -1,0 +1,33 @@
+java --list dash modules (me muestras todos los modules)
+
+java --describe-module java.loggin (describe un modulo)
+
+jdeps --print-module-deps -m java.sql - jdeps --print-module-deps -module java.sql - jdeps --print-module-deps --module java.sql(ver las dependencias del modulo)
+
+jdeps --list-reduced-deps --module java.sql (version alternativa del describe)
+
+jdeps --list -deps --mdule java.sql.rowset (imprime las dependencias y jerarquias)
+
+jdeps --list-reduced-deps -m java.sql.rowset
+
+Jigsaw
+
+
+Ejecutando modulo por linea de comando
+java --module-path out\production\ -m MyFirstModule/modular.HelloWorld
+
+Crear ejecutable module Jar por linea de comando
+jar --create --file MyFirstModule.jar --main-class modular.HelloWorld
+-C out\production\MyFirstModule\ .
+
+examinar los archivos jar
+jar -f MyFirstModule.jar --list
+jar -f MyFirstModule.jar -d
+java --modular-path . --describe-module myFirstModule
+java -p . -d MyFirstModule
+
+Ejecutar codigo del jar
+java --module-path . --module MyFirstModule
+
+java class dependency analyzer
+jdeps MyFirstModule.jar

@@ -16,6 +16,12 @@ public class FunctionTest {
             }
         };
 
+        Function<Integer , String> function2=new Function<Integer, String>() {
+            @Override
+            public String apply(Integer integer) {
+                return integer.toString();
+            }
+        };
         Stream<String> stream = Stream.of("aaa", "bbbbb", "ccccccv");
         Stream<Integer> stream1 = stream.map(function);
         stream1.forEach(System.out::println);

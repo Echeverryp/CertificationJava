@@ -1,0 +1,81 @@
+java --list dash modules (me muestras todos los modules)
+
+java --describe-module java.loggin (describe un modulo)
+
+jdeps --print-module-deps -m java.sql - jdeps --print-module-deps -module java.sql - jdeps --print-module-deps --module java.sql(ver las dependencias del modulo)
+
+jdeps --list-reduced-deps --module java.sql (version alternativa del describe)
+
+jdeps --list -deps --mdule java.sql.rowset (imprime las dependencias y jerarquias)
+
+jdeps --list-reduced-deps -m java.sql.rowset
+
+Jigsaw
+
+
+Ejecutando modulo por linea de comando
+java --module-path out\production\ -m MyFirstModule/modular.HelloWorld
+
+Crear ejecutable module Jar por linea de comando
+jar --create --file MyFirstModule.jar --main-class modular.HelloWorld
+-C out\production\MyFirstModule\ .
+
+examinar los archivos jar
+jar -f MyFirstModule.jar --list
+jar -f MyFirstModule.jar -d
+java --modular-path . --describe-module myFirstModule
+java -p . -d MyFirstModule
+
+Ejecutar codigo del jar
+java --module-path . --module MyFirstModule
+
+java class dependency analyzer
+jdeps MyFirstModule.jar
+
+Se crea jar en directorio raiz
+jar --create --file MyFirstModule.jar --main-class modular.HelloWorld -C out\production\MyFirstModule\ .
+
+Se crea jar pero en un directorio diferente .. en este caso en el out
+jar --create --file out\MySecondModule.jar -C out\production\MySecondModule\ .
+
+testear dependencias antes de correr el codigo
+java --dry-run -p . -m MyFirstModule
+
+testear dependencias antes de correr el codigo (En este caso le estamos diciendo que busque en la carpeta out para buscar el jar del segundo
+modulo que el primer modulo requeria)
+java --dry-run -p .;out -m MyFirstModule
+
+corre codigo
+java -p .;out -d MyFirstModule
+
+
+java class dependency analyzer (En este caso se agrega el module path para que busque la ubicación del jar que requiere el primer modulo)
+jdeps --module-path .;out MyFirstModule.jar
+
+analiza las dependencias igual pero con el -m se ahorra el .jar
+jdeps --module-path .;out -m MyFirstModule
+
+analiza las dependecias pero con una vista mas amigable
+jdeps --module-path .;out --list-deps MyFirstModule.jar
+
+lo mismo que el de arriba pero se ahorra el .jar con el -m
+jdeps --module-path .;out --list-deps -m MyFirstModule
+
+otro informe de las dependencias
+jdeps --module-path .;out --check MyFirstModule
+
+muestra las dependencias a nivel de clases
+jdeps -v org.module.global
+jdeps -verbose org.module.global
+
+representacion textual del module graph
+jdeps -s org.module.global
+jdeps -summary org.module.global
+
+represnetacion textual del module graph pero con dos modulos
+jdeps -summary org.module.global  org.module.util
+
+muestra las dependencias y requieres que tiene el modulo
+java --module-path . --describe-module org.module.global
+
+jdeps -s

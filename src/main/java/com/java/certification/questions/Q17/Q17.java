@@ -10,7 +10,11 @@ public class Q17 {
     public static void main(String[] args) {
         List<String> fruits= new ArrayList<>(List.of("apple","orange","banana"));
 
+
+        //Replaces each element of this list with the result of applying the operator to that element.
+        // Errors or runtime exceptions thrown by the operator are relayed to the caller.
         UnaryOperator<String> functio=String::toUpperCase;
+
 
 
         fruits.replaceAll(functio);

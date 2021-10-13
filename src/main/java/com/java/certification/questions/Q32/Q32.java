@@ -11,7 +11,6 @@ public class Q32 {
 
         UnaryOperator<Integer> uoa1=(var x)->(x*3);
 
-
         //PERMITIDO//UnaryOperator<Integer> uoa2=x->{return x*3;};
         //NO PERMITIDO//UnaryOperator<Integer> uoa2=x->{return x*3};
         //PERMITIDO//UnaryOperator<Integer> uoa2=(var x)->x*3;

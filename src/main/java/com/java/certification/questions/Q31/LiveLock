@@ -1,0 +1,6 @@
+El problema con este programa es que nunca se puede completar con éxito. ¿Por qué? Porque la condición para la finalización satisfactoria de cualquier subproceso es la finalización satisfactoria de otro subproceso. Hasta que el subproceso t1 establezca el indicador "verdadero" en el campo listo, el subproceso t2 no podrá seguir trabajando y establecer el indicador como verdadero en el campo terminado, pero t1 no puede establecer este indicador porque no puede salir del bucle. . Entonces, tenemos un livelock.
+
+Livelock ocurre cuando dos o más procesos repiten continuamente la misma interacción en
+respuesta a cambios en los otros procesos sin realizar ningún trabajo útil. Estos procesos no
+están en estado de espera y se están ejecutando al mismo tiempo. Esto es diferente de un interbloqueo
+porque en un interbloqueo todos los procesos están en estado de espera.

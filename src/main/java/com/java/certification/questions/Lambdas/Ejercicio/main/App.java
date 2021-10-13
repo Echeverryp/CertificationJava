@@ -59,6 +59,8 @@ public class App {
                 .map(p->App.getAge(p.getBirthDate())).
                         collect(Collectors.toList());
 
+        persons.stream().map(p->p.getName()).collect(Collectors.toCollection(TreeSet::new)).stream().anyMatch(p->p.startsWith("a"));
+
         //STRING PARAMETRO DE ENTRADA Y STRING PARAMETRO DE SALIDA
         //Funcion que hace la concatenacion
         Function<String , String > codeFunction= name-> "Coder" + name;
@@ -112,30 +114,36 @@ public class App {
                 .collect(Collectors.toList());
 
         //COLLECTORS
-        //Los ordena en un map , el double seria el price q esta en el group by
+        //Los ordena en un map , el double seria el price q esta en el group by {35.5=[Product(id=1, name=Bandeja Paisa, price=35.5)], 25.5=[Product(id=1, name=Chilaquiles, price=25.5)]}
         Map<Double, List<Product>> collect1=
                 products.stream().filter(p->p.getPrice()>20).collect(Collectors.groupingBy(Product::getPrice));
+        System.out.println("COLLECT 1" + collect1);
 
         //Counting
-        //Nos cuenta cuantos elementos repetidos hay dependiendo de lo q le pasemos .. en este caso por get name
+        //Nos cuenta cuantos elementos repetidos hay dependiendo de lo q le pasemos .. en este caso por get name {Ceviche=2, Bandeja Paisa=1, Chilaquiles=1}
         Map<String ,Long> collect2=products
                 .stream().collect(Collectors.groupingBy(
                 Product::getName, Collectors.counting()
         ));
 
+        System.out.println("COLLECT 2" + collect2);
+
         //Agrupando por nombre producto y Sumando
+        //COLLECT 3{Ceviche=30.0, Bandeja Paisa=35.5, Chilaquiles=25.5} //SUMA LOS QUE TENGA EL NOMBRE REPETIDO
         Map<String ,Double> collect3= products
                 .stream()
                 .collect(Collectors.groupingBy(Product::getName,Collectors.summingDouble(Product::getPrice)));
 
+        System.out.println("COLLECT 3" + collect3);
         //Obtiene suma y resumen
         DoubleSummaryStatistics statistics =products.stream().collect(Collectors.summarizingDouble(Product::getPrice));
         System.out.println(statistics.getMax());
-
+        System.out.println( statistics.getSum());
+        System.out.println(statistics.getMin());
 
         //7-reduce Devulve un optional y hace la suma de todos los precios
-        Optional<Double> sum=products.stream().map(p->p.getPrice()).reduce(Double::sum);
-        sum.get();
+        Optional<Double> sum=products.stream().map(p->p.getPrice()).reduce(Double::max);
+        System.out.println(sum.get());
     }
 
     public static int  getAge(LocalDate birthDate){

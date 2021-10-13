@@ -1,0 +1,2 @@
+
+Starvation describe una situación en la que un hilo no puede obtener acceso regular a los recursos compartidos y no puede progresar. Esto sucede cuando los recursos compartidos dejan de estar disponibles durante períodos prolongados debido a subprocesos "codiciosos". Por ejemplo, supongamos que un objeto proporciona un método sincronizado que a menudo tarda mucho en volver. Si un subproceso invoca este método con frecuencia, a menudo se bloquearán otros subprocesos que también necesitan acceso frecuente sincronizado al mismo objeto.
