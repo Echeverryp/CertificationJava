@@ -7,10 +7,14 @@ public class Tulip extends Plant{
         Plant plant=new Tulip();
         feed(plant);
         feed(plant);
-
+        Integer prueba=5;
+        prueba(prueba);
         Plant plantT=new Plant();
         feed(plantT);
 
+    }
+    static void prueba(Integer prueba){
+        prueba=0;
     }
 
     public static void feed(Plant plant){
@@ -18,6 +22,6 @@ public class Tulip extends Plant{
 
             System.out.println("Take care of");
         }
-
+        plant = null;
     }
 }

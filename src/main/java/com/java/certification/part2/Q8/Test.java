@@ -3,6 +3,7 @@ package com.java.certification.part2.Q8;
 public class Test {
 
     private int sum;
+
     public int compute() {
         int x = 0;
         while (x < 3) {

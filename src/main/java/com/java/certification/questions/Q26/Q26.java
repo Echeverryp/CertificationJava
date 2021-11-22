@@ -16,5 +16,6 @@ public class Q26 {
             stringBuilder.append("");
 
         }
+        System.out.println(stringBuilder.toString());
     }
 }

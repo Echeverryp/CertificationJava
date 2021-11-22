@@ -9,7 +9,9 @@ public interface MyInterface1 {
 }
 @FunctionalInterface
 interface MyInterface2{
-    public static void sMethod(){};
+    public static void sMethod(){
+
+    };
     public boolean equals();
 
 }

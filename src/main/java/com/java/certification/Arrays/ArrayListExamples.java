@@ -21,7 +21,7 @@ public class ArrayListExamples {
                 + (firstArray.equals(secondArray)));
         System.out.println("firstArray.equals(thirdArray)) = "
                 + (firstArray.equals(thirdArray)));
-
+        boolean prueba= firstArray.contains(1);
         // .contains() returns true if element values are equal
         System.out.println("firstArray.contains(\"DEF\")) = "
                 + (firstArray.contains("DEF")));
@@ -50,6 +50,7 @@ public class ArrayListExamples {
         // index of element if found
         System.out.println("firstArray.lastIndexOf(\"DEF\")) = "
                 + (firstArray.lastIndexOf("DEF")));
+        
         System.out.println("firstArray.lastIndexOf(\"ZZZ\")) = "
                 + (firstArray.lastIndexOf("ZZZ")));
 

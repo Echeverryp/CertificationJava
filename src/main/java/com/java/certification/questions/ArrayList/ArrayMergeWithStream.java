@@ -25,7 +25,9 @@ public class ArrayMergeWithStream {
 
     public static <T> Object[] mergeArray(T[] arr1, T[] arr2)
     {
-        //Object[] arrayList= Stream.of(arr1).flatMap(Stream::of).toArray();
+
+       //Stream.of(arr1, arr2).flatMap(Stream::of).toArray();
+        Object[] arrayList= Stream.of(arr1, arr2).flatMap(Stream::of).toArray();
         return Stream.of(arr1, arr2).flatMap(Stream::of).toArray();
     }
 }

@@ -12,6 +12,7 @@ public class Prueba_TreeSet {
         //Lo ordena porque implementa la interfaz comparable
         TreeSet<String> ordenaPersonas=new TreeSet<>();
         ordenaPersonas.add("Pablo");
+        ordenaPersonas.add("Pablo");
         ordenaPersonas.add("Amanda");
         ordenaPersonas.add("Juliana");
         ordenaPersonas.add("Diana");

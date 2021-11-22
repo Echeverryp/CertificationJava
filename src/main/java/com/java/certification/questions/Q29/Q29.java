@@ -39,7 +39,7 @@ public class Q29 {
         try {
             //validate1("a");
 
-            //validate2("1", 1, 2);
+            validate2("1", 1, 2);
             validate3("21111111", 1, 2);
             validate4("1", 1, 2);
         }catch (Exception e){

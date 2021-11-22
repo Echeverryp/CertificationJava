@@ -55,7 +55,7 @@ public class AnimalVisit {
         pug.setChipDate(LocalDate.now());
 
         // Call the overridden method (note that toString() is implied
-        System.out.println(pug);
+        //System.out.println(pug);
 
         // Call the overridden method
         System.out.println("Chip Date = " + pug.getChipDate());

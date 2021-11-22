@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/JavaCertification.iml" filepath="$PROJECT_DIR$/.idea/JavaCertification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyFirstModule/MyFirstModule.iml" filepath="$PROJECT_DIR$/MyFirstModule/MyFirstModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MySecondModule/MySecondModule.iml" filepath="$PROJECT_DIR$/MySecondModule/MySecondModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.model.util/org.model.util.iml" filepath="$PROJECT_DIR$/org.model.util/org.model.util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.module.base/org.module.base.iml" filepath="$PROJECT_DIR$/org.module.base/org.module.base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.module.concrete/org.module.concrete.iml" filepath="$PROJECT_DIR$/org.module.concrete/org.module.concrete.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.module.global/org.module.global.iml" filepath="$PROJECT_DIR$/org.module.global/org.module.global.iml" />
     </modules>
   </component>
 </project>

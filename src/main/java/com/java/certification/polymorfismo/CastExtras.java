@@ -1,9 +1,12 @@
 package com.java.certification.polymorfismo;
 
+import com.java.certification.questions.Q37.B;
+
 import java.util.Arrays;
 
 
 public class CastExtras {
+
     // Just want a few classes to play with
 
     static class BaseClass {
@@ -15,11 +18,13 @@ public class CastExtras {
     }
 
     static class NextClass extends BaseClass {
+
         String name = "Next Best Case";
     }
 
     // main method, we'll test out some more casting examples
     public static void main(String[] args) {
+
 
         // Let's create the most generic of arrays
         Object[] myObjectArray = new Object[10];

@@ -1,5 +1,6 @@
 package com.java.certification.questions.Q38;
 
+import javax.xml.xpath.XPathException;
 import java.io.FileNotFoundException;
 
 public class Q38 {
@@ -8,7 +9,8 @@ public class Q38 {
 
         try {
             doA();
-        } catch (Exception e) {
+            new XPathException("");
+        } catch (Exception  e) {
             e.printStackTrace();
         }
 

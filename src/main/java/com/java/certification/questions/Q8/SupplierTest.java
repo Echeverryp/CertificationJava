@@ -12,6 +12,7 @@ public class SupplierTest {
         DoubleSupplier doubleSupplier2 = Math::random;
 
         LongSupplier longSupplier=() -> 1L;
+
         BooleanSupplier booleanSupplier=()->false;
         System.out.println(longSupplier.getAsLong());
         System.out.println(booleanSupplier.getAsBoolean());

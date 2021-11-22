@@ -56,10 +56,12 @@ public class App {
                 stream().
                 filter(p-> getAge(p.getBirthDate())>=18)
                 //En este caso devuelve una lista de integers , porque esta devolviendo la edad
+
                 .map(p->App.getAge(p.getBirthDate())).
                         collect(Collectors.toList());
 
         persons.stream().map(p->p.getName()).collect(Collectors.toCollection(TreeSet::new)).stream().anyMatch(p->p.startsWith("a"));
+
 
         //STRING PARAMETRO DE ENTRADA Y STRING PARAMETRO DE SALIDA
         //Funcion que hace la concatenacion

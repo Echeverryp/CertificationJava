@@ -78,6 +78,7 @@ public class TestArrays {
         List<String> secondListR=new ArrayList<String>(Arrays.asList("M", "W", "E", "K", "T"));
         System.out.println("Second arraylist: ");
         System.out.println(secondListR);
+
 //returns the common elements in both list
         secondListR.retainAll(firstListR);
         System.out.println("Common elements in both list: ");

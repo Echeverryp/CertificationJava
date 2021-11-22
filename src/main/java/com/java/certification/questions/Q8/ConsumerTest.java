@@ -27,8 +27,10 @@ public class ConsumerTest {
 
         upperCaseConsumer.andThen(printConsumerList).accept(citiesList);
 
+
         IntConsumer intConsumer= t->System.out.println(t);
         intConsumer.accept(1);
+
 
     }
 }

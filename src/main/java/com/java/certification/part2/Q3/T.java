@@ -8,5 +8,6 @@ public class T implements Abacus{
 
     public static void main(String[] args) {
         T t=new T();
+        t.calc(10,10);
     }
 }
