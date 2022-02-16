@@ -18,8 +18,8 @@ public class CollectToMap {
 
 
         //simple();
-        //merge();
-        mergeSupp();
+        merge();
+       // mergeSupp();
         //grouping();
     }
 
@@ -33,18 +33,33 @@ public class CollectToMap {
     private static void merge() {
 
         //Clave->Gender Valor ->List<Pet>
-        Function<? super Object, ?> keyMapp;
+
+
         Function<Pet,List<Pet>> valueMap=pet -> {
             var lst=new ArrayList<Pet>();
+            System.out.println("VALUE MAP");
+
+            //lst.add(new Pet("New",12));
             lst.add(pet);
+            System.out.println(pet.getName());
             return lst;
         };
+
         BinaryOperator<List<Pet>> merge=(lst,lst2)->{
+
+            System.out.println("****MERGE[***");
+            System.out.println("Primera Lista lista");
+            lst.forEach(System.out::println);
+            System.out.println("Segunda lista");
+            lst2.forEach(System.out::println);
             lst2.addAll(lst);
             return lst2;
         };
+
         Map<String,List<Pet>> map=lst.stream().collect(Collectors.toMap(Pet::getName,valueMap,merge));
-        System.out.println(map);
+       // System.out.println(map);
+        System.out.println("*******");
+        map.entrySet().stream().forEach(p-> System.out.println("Key: "+p.getKey() + "\n Value: " + p.getValue()) );
     }
     private static void mergeSupp() {
         Map<String,List<Pet>> map=lst.stream().collect(Collectors.groupingBy(Pet::getName));

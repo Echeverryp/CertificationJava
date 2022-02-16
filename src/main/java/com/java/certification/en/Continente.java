@@ -1,5 +1,7 @@
 package com.java.certification.en;
 
+import java.util.List;
+
 public enum Continente {
     EUROPA(91,42.0),
     AMERICA(73,33.0),
@@ -37,9 +39,26 @@ public enum Continente {
 
     public static void main(String[] args) {
 
+        validate("Infinity",1,2);
 
         Continente continente=Continente.EUROPA;
         continente.getCantHabitantes();
         Continente.valueOf("EUROPA");
+    }
+
+    static class Item {
+        public String name;
+        public int count;
+        public Item(String name, int count) {
+            this.name = name;
+            this.count = count;
+        }
+    }
+    static float validate (String s , float min, float max){
+        float f= Float.parseFloat(s);
+        if (!Float.isInfinite(f) ){
+            return 1l;
+        }
+        return 12l;
     }
 }

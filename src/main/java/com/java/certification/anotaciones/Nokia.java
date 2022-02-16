@@ -3,8 +3,8 @@ package com.java.certification.anotaciones;
 import java.lang.annotation.Annotation;
 
 //Si se pone default no es necesario especificar
-@SmartPhone( version=6)
-//@SmartPhone( OS="",version=6)
+//@SmartPhone( version=6)
+@SmartPhone( version=6,OS="")
 public class Nokia {
 
     String model;

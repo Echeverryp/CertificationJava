@@ -121,11 +121,12 @@ public class App {
                 products.stream().filter(p->p.getPrice()>20).collect(Collectors.groupingBy(Product::getPrice));
         System.out.println("COLLECT 1" + collect1);
 
+
         //Counting
         //Nos cuenta cuantos elementos repetidos hay dependiendo de lo q le pasemos .. en este caso por get name {Ceviche=2, Bandeja Paisa=1, Chilaquiles=1}
         Map<String ,Long> collect2=products
                 .stream().collect(Collectors.groupingBy(
-                Product::getName, Collectors.counting()
+                Product::getName,Collectors.counting()
         ));
 
         System.out.println("COLLECT 2" + collect2);

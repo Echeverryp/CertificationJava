@@ -17,14 +17,20 @@ public class ConsumerExamples {
         lst.add(true);
         lst.add(48.88f);
 
-        //usingConsumer("Hola soy un valor de tipo T",System.out::println
-        //,v->lst.add(v),ConsumerExamples::printLst);
+
+        Consumer<String> consumer=(a)-> System.out.println("Hola mundo" + a);
+
+        consumer.accept("probando");
+        consumer.andThen(p-> System.out.println("Este es otro"+p)).accept("otrico");
+
+        /*usingConsumer("Hola soy un valor de tipo T",System.out::println
+        ,v->lst.add(v),ConsumerExamples::printLst);
 
         usingBiConsumer(4,1000,
                 (e,v)->System.out.println("En el index: " + e + " Se intenta añadir el elemento " + v)
                 ,(i,v) ->lst.add(i,v)
                 ,ConsumerExamples::printAfter
-                );
+                );*/
         
     }
 

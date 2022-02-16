@@ -2,6 +2,8 @@ com/java/certification/StringTests/CharSequenceTest.java
  com.java.certification.StringTests.CharSequenceTest
 com/java/certification/part2/Q43Estudiar/Hello.java
  com.java.certification.part2.Q43Estudiar.Hello
+com/java/certification/programacionFuncional/interfaesJDK/MainGroupingBy.java
+ com.java.certification.programacionFuncional.interfaesJDK.MainGroupingBy
 com/java/certification/StringTests/TestDos.java
  com.java.certification.StringTests.TestDos
 com/java/certification/part2/Q12Estudiar/Tests.java
@@ -32,6 +34,8 @@ com/java/certification/programacionFuncional/interfazFuncional/Operation.java
  com.java.certification.programacionFuncional.interfazFuncional.Operation$1
 com/java/certification/StringTests/PruebaConStringBuilder.java
  com.java.certification.StringTests.PruebaConStringBuilder
+com/java/certification/hilos/videoProgramacionF/VolatileOrAtomic.java
+ com.java.certification.hilos.videoProgramacionF.VolatileOrAtomic
 com/java/certification/questions/Q45/Test.java
  com.java.certification.questions.Q45.Test
  com.java.certification.questions.Q45.Test$L
@@ -43,6 +47,8 @@ com/java/certification/herencia/Objeto.java
  com.java.certification.herencia.Objeto
 com/java/certification/part2/Q11Estudiar/Q11.java
  com.java.certification.part2.Q11Estudiar.Q11
+com/java/certification/programacionFuncional/interfaesJDK/PruebasEstudio.java
+ com.java.certification.programacionFuncional.interfaesJDK.PruebasEstudio
 com/java/certification/questions/JDBC/ModificaDB.java
  com.java.certification.questions.JDBC.ModificaDB
 com/java/certification/questions/ProgramacionGenerica/ClaseGenerica.java
@@ -53,6 +59,8 @@ com/java/certification/part2/Q29/Q29.java
  com.java.certification.part2.Q29.Q29
 com/java/certification/Suppliers/SupplierExample.java
  com.java.certification.Suppliers.SupplierExample
+com/java/certification/hilos/videoProgramacionF/VolatileSample.java
+ com.java.certification.hilos.videoProgramacionF.VolatileSample
 com/java/certification/Exceptions/InitializerExceptions.java
  com.java.certification.Exceptions.InitializerExceptions
  com.java.certification.Exceptions.StaticTest
@@ -62,6 +70,10 @@ com/java/certification/Modifiers/AllowableChildModifiers.java
  com.java.certification.Modifiers.AllowableChildModifiers
  com.java.certification.Modifiers.Animal
  com.java.certification.Modifiers.Dog
+com/java/certification/hilos/videoProgramacionF/Application.java
+ com.java.certification.hilos.videoProgramacionF.Application
+ com.java.certification.hilos.videoProgramacionF.Application$ExampleOfThread
+ com.java.certification.hilos.videoProgramacionF.Application$OtherExampleOfThread
 com/java/certification/questions/ArrayList/ArrayMergeWithStream.java
  com.java.certification.questions.ArrayList.ArrayMergeWithStream
 com/java/certification/Suppliers/HotDog.java
@@ -90,12 +102,16 @@ com/java/certification/Exceptions/Q1.java
  com.java.certification.Exceptions.Q1
 com/java/certification/part2/Q19Estudiar/Q19.java
  com.java.certification.part2.Q19Estudiar.Q19
+com/java/certification/files/Ejemplo_File.java
+ com.java.certification.files.Ejemplo_File
 com/java/certification/StringTests/ArraysFirstExample.java
  com.java.certification.StringTests.ArraysFirstExample
 com/java/certification/questions/Q3/Q3.java
  com.java.certification.questions.Q3.Q3
 com/java/certification/files/TestManejoArchivos.java
  com.java.certification.files.TestManejoArchivos
+com/java/certification/Optionals/Persona.java
+ com.java.certification.Optionals.Persona
 com/java/certification/part2/Q46Estudiar/Q46.java
  com.java.certification.part2.Q46Estudiar.Q46
 com/java/certification/questions/Q13/Q13.java
@@ -156,6 +172,13 @@ com/java/certification/questions/ArrayList/TestArrays.java
 com/java/certification/Clases/ForwardReference.java
  com.java.certification.Clases.ForwardReference
  com.java.certification.Clases.Thing
+com/java/certification/anotaciones/App.java
+ com.java.certification.anotaciones.App
+ com.java.certification.anotaciones.App$Lenguaje
+ com.java.certification.anotaciones.App$LenguajeDeProgramacion
+ com.java.certification.anotaciones.App$Lenguajes
+secondTime/polimorfismo/models/Dog.java
+ secondTime.polimorfismo.models.Dog
 com/java/certification/pkga/SuperClass.java
  com.java.certification.pkga.PackageAClass
  com.java.certification.pkga.SuperClass
@@ -203,8 +226,14 @@ com/java/certification/questions/Q1/MainEnum.java
  com.java.certification.questions.Q1.MainEnum
 com/java/certification/questions/Q14/Q14.java
  com.java.certification.questions.Q14.Q14
+com/java/certification/hilos/videoProgramacionF/ConsumerAction.java
+ com.java.certification.hilos.videoProgramacionF.ConsumerAction
 com/java/certification/genericos/Persona.java
  com.java.certification.genericos.Persona
+com/java/certification/examExer/Param.java
+ com.java.certification.examExer.Param
+secondTime/collector/dto/Empresa.java
+ secondTime.collector.dto.Empresa
 com/java/certification/part2/Q42/Employee.java
  com.java.certification.part2.Q42.Employee
 com/java/certification/programacionFuncional/interfaesJDK/MatchSample.java
@@ -283,6 +312,9 @@ com/java/certification/programacionFuncional/interfaesJDK/ConsumerExamples.java
 com/java/certification/questions/Q31/Resource.java
  com.java.certification.questions.Q31.Resource
  com.java.certification.questions.Q31.Resource$Worker
+com/java/certification/anotaciones/CustomTypeAnnotation.java
+ com.java.certification.anotaciones.CustomTypeAnnotation
+ com.java.certification.anotaciones.CustomTypeAnnotation$Priority
 com/java/certification/files/ManejoDeArchivo.java
  com.java.certification.files.ManejoDeArchivo
 com/java/certification/questions/Lambdas/Ejercicio/models/Product.java
@@ -296,6 +328,8 @@ com/java/certification/Interfaces/TestDos.java
 com/java/certification/herencia/company/Test.java
  com.java.certification.herencia.company.AbstractClass
  com.java.certification.herencia.company.Test
+secondTime/polimorfismo/models/MiBebe.java
+ secondTime.polimorfismo.models.MiBebe
 com/java/certification/polymorfismo/Test.java
  com.java.certification.polymorfismo.SubClass
  com.java.certification.polymorfismo.Test
@@ -325,6 +359,8 @@ com/java/certification/part2/Q4/TestIE.java
  com.java.certification.part2.Q4.TestIE
 com/java/certification/Optionals/App.java
  com.java.certification.Optionals.App
+com/java/certification/anotaciones/PesonaConAnotaciones.java
+ com.java.certification.anotaciones.PesonaConAnotaciones
 com/java/certification/part2/Q36/Main.java
  com.java.certification.part2.Q36.Main
 com/java/certification/questions/Serializable/Serializacion.java
@@ -339,8 +375,11 @@ com/java/certification/hilos/Hilo3.java
  com.java.certification.hilos.Hilo3
 com/java/certification/part2/Q13Estudiar/DoubleStreamTest.java
  com.java.certification.part2.Q13Estudiar.DoubleStreamTest
+com/java/certification/files/Pruebas.java
+ com.java.certification.files.Pruebas
 com/java/certification/en/Continente.java
  com.java.certification.en.Continente
+ com.java.certification.en.Continente$Item
 com/java/certification/Optionals/OptionalApp.java
  com.java.certification.Optionals.OptionalApp
 com/java/certification/questions/Q2/Test.java
@@ -363,6 +402,8 @@ com/java/certification/questions/Q6/Q6.java
  com.java.certification.questions.Q6.Q6
  com.java.certification.questions.Q6.Q6$1
  com.java.certification.questions.Q6.Q6$2
+ com.java.certification.questions.Q6.Q6$3
+ com.java.certification.questions.Q6.Q6$4
 com/java/certification/programacionFuncional/interfaesJDK/MainBiFunction.java
  com.java.certification.programacionFuncional.interfaesJDK.MainBiFunction
 com/java/certification/programacionFuncional/interfaesJDK/UnorderedSample.java
@@ -399,6 +440,8 @@ com/java/certification/questions/Q33/Q33.java
  com.java.certification.questions.Q33.Q33
 com/java/certification/programacionFuncional/interfaesJDK/MapSample.java
  com.java.certification.programacionFuncional.interfaesJDK.MapSample
+com/java/certification/anotaciones/Nokia.java
+ com.java.certification.anotaciones.Nokia
 com/java/certification/questions/Q23/Test.java
  com.java.certification.questions.Q23.Sub
  com.java.certification.questions.Q23.Super
@@ -412,6 +455,8 @@ com/java/certification/programacionFuncional/interfaesJDK/CollectToMap.java
 com/java/certification/questions/Lists/TreeSetTest.java
  com.java.certification.questions.Lists.TreeSetTest
  com.java.certification.questions.Lists.TreeSetTest$Articulo
+com/java/certification/hilos/videoProgramacionF/ThreadPoolSample.java
+ com.java.certification.hilos.videoProgramacionF.ThreadPoolSample
 com/java/certification/questions/ProgramacionGenerica/UsoClaseGenerica.java
  com.java.certification.questions.ProgramacionGenerica.UsoClaseGenerica
  com.java.certification.questions.ProgramacionGenerica.UsoClaseGenerica$Persona
@@ -439,8 +484,8 @@ com/java/certification/hilos/BancoSinSincronizar.java
  com.java.certification.hilos.Banco
  com.java.certification.hilos.BancoSinSincronizar
  com.java.certification.hilos.EjecucionTransferencias
-com/java/certification/hilos/videoProgramacionF/VolatileSample.java
- com.java.certification.hilos.videoProgramacionF.VolatileSample
+com/java/certification/questions/Q38/Q38.java
+ com.java.certification.questions.Q38.Q38
 com/java/certification/part2/Q13Estudiar/LongStreamTest.java
  com.java.certification.part2.Q13Estudiar.LongStreamTest
 com/java/certification/genericos/TestGenerics.java
@@ -454,6 +499,8 @@ com/java/certification/questions/StringBuilder/TestStringBuilder.java
  com.java.certification.questions.StringBuilder.TestStringBuilder
 com/java/certification/questions/Collecciones/CuentasUsuariosIterator.java
  com.java.certification.questions.Collecciones.CuentasUsuariosIterator
+com/java/certification/files/FileReader300.java
+ com.java.certification.files.FileReader300
 com/java/certification/part2/Q3/Q3.java
  com.java.certification.part2.Q3.Q3
 com/java/certification/programacionFuncional/interfaesJDK/MainFunction.java
@@ -464,6 +511,8 @@ com/java/certification/pkgTwo/pruebita.java
  com.java.certification.pkgTwo.pruebita
 com/java/certification/StringTests/IncrementsDecrements.java
  com.java.certification.StringTests.IncrementsDecrements
+secondTime/polimorfismo/models/Mascota.java
+ secondTime.polimorfismo.models.Mascota
 com/java/certification/questions/Q30/Q30.java
  com.java.certification.questions.Q30.Q30
 com/java/certification/Interfaces/TestGrowth.java
@@ -491,6 +540,8 @@ com/java/certification/programacionFuncional/interfaesJDK/Sub.java
  com.java.certification.programacionFuncional.interfaesJDK.Sub
 com/java/certification/Exceptions/AFinalTry.java
  com.java.certification.Exceptions.AFinalTry
+com/java/certification/anotaciones/SmartPhone.java
+ com.java.certification.anotaciones.SmartPhone
 com/java/certification/questions/ProgramacionGenericaConHerencia/Jefe.java
  com.java.certification.questions.ProgramacionGenericaConHerencia.Jefe
 com/java/certification/questions/Q16/Q16FiveImple.java
@@ -499,8 +550,11 @@ com/java/certification/part2/Q21/Main.java
  com.java.certification.part2.Q21.Main
 com/java/certification/questions/Q16/Q16FirstImple.java
  com.java.certification.questions.Q16.Q16FirstImple
-com/java/certification/programacionFuncional/interfaesJDK/MainPartitioningBy.java
- com.java.certification.programacionFuncional.interfaesJDK.MainPartitioningBy
+com/java/certification/herencia/AnimalVisit.java
+ com.java.certification.herencia.AnimalVisit
+ com.java.certification.herencia.Dog
+secondTime/collector/dto/Empleado.java
+ secondTime.collector.dto.Empleado
 com/java/certification/Clases/AbstractClassExample.java
  com.java.certification.Clases.AbstractClassExample
  com.java.certification.Clases.AbstractClassExample$1
@@ -513,10 +567,14 @@ com/java/certification/Clases/StaticInitializer.java
  com.java.certification.Clases.staticInitExample
 com/java/certification/hilos/Hilo4.java
  com.java.certification.hilos.Hilo4
-com/java/certification/questions/Q22/Tulip.java
- com.java.certification.questions.Q22.Tulip
+com/java/certification/polymorfismo/CastExtras.java
+ com.java.certification.polymorfismo.CastExtras
+ com.java.certification.polymorfismo.CastExtras$BaseClass
+ com.java.certification.polymorfismo.CastExtras$NextClass
 com/java/certification/questions/Q17/Q17.java
  com.java.certification.questions.Q17.Q17
+com/java/certification/en/Machine.java
+ com.java.certification.en.Machine
 com/java/certification/questions/ArrayList/MergeArraysArrayCopy.java
  com.java.certification.questions.ArrayList.MergeArraysArrayCopy
 com/java/certification/questions/Lambdas/Ejercicio/main/App.java
@@ -553,6 +611,8 @@ com/java/certification/Clases/StaticElementTests.java
  com.java.certification.Clases.StaticStuff
 com/java/certification/questions/Q0/BloqIniciali.java
  com.java.certification.questions.Q0.BloqIniciali
+com/java/certification/anotaciones/ianotacion/Validacion.java
+ com.java.certification.anotaciones.ianotacion.Validacion
 com/java/certification/questions/Collecciones/PruebaMaps.java
  com.java.certification.questions.Collecciones.PruebaMaps
  com.java.certification.questions.Collecciones.PruebaMaps$Empleado
@@ -608,16 +668,19 @@ com/java/certification/lambdaExpresions/SuppliedInterfaceTests.java
  com.java.certification.lambdaExpresions.SuppliedInterfaceTests
 com/java/certification/part2/Q34Estudiar/ConSub.java
  com.java.certification.part2.Q34Estudiar.ConSub
+com/java/certification/anotaciones/ianotacion/AnnotationExample.java
+ com.java.certification.anotaciones.ianotacion.AnnotationExample
 com/java/certification/part2/Q27/Q27.java
  com.java.certification.part2.Q27.Q27
  com.java.certification.part2.Q27.Q27$Greet
+com/java/certification/anotaciones/ianotacion/CuestomMethodAnnotation.java
+ com.java.certification.anotaciones.ianotacion.CuestomMethodAnnotation
 com/java/certification/questions/Q21/Q21.java
  com.java.certification.questions.Q21.Q21
 com/java/certification/questions/Q41/Test.java
  com.java.certification.questions.Q41.Test
-com/java/certification/herencia/AnimalVisit.java
- com.java.certification.herencia.AnimalVisit
- com.java.certification.herencia.Dog
+com/java/certification/questions/Q22/Tulip.java
+ com.java.certification.questions.Q22.Tulip
 com/java/certification/polymorfismo/OverrideExample.java
  com.java.certification.polymorfismo.BaseClass
  com.java.certification.polymorfismo.ExtendedClass
@@ -653,12 +716,18 @@ com/java/certification/StringTests/ArrayComparison.java
  com.java.certification.StringTests.ArrayComparison
 com/java/certification/questions/Q9/PriceChecker.java
  com.java.certification.questions.Q9.PriceChecker
+secondTime/servideLoader/main.java
+ secondTime.servideLoader.main
 com/java/certification/programacionFuncional/interfaesJDK/FilterStreamSample.java
  com.java.certification.programacionFuncional.interfaesJDK.FilterStreamSample
 com/java/certification/part2/Q23/GameObject.java
  com.java.certification.part2.Q23.GameObject
 com/java/certification/questions/Q47/Q47.java
  com.java.certification.questions.Q47.Q47
+codewars/DigitalRoot.java
+ codewars.DigitalRoot
+com/java/certification/anotaciones/ianotacion/Validable.java
+ com.java.certification.anotaciones.ianotacion.Validable
 com/java/certification/questions/ArrayList/ArrayMergeWithoutArrayCopy.java
  com.java.certification.questions.ArrayList.ArrayMergeWithoutArrayCopy
 com/java/certification/questions/Collecciones/Prueba_TreeSet.java
@@ -699,6 +768,8 @@ com/java/certification/questions/Q11/Q11.java
  com.java.certification.questions.Q11.Q11
  com.java.certification.questions.Q11.Q11$GeneralException
  com.java.certification.questions.Q11.Q11$SpecificException
+secondTime/servideLoader/CodecFactory.java
+ secondTime.servideLoader.CodecFactory
 com/java/certification/Interfaces/Test.java
  com.java.certification.Interfaces.Test
 com/java/certification/part2/Q38/Y.java
@@ -727,6 +798,8 @@ com/java/certification/part2/Q31/Q31.java
  com.java.certification.part2.Q31.Q31
 com/java/certification/genericos/colecciones/Pareja.java
  com.java.certification.genericos.colecciones.Pareja
+secondTime/polimorfismo/Main.java
+ secondTime.polimorfismo.Main
 com/java/certification/Interfaces/TestDefaultMethods.java
  com.java.certification.Interfaces.Teachable
  com.java.certification.Interfaces.TestDefaultMethods
@@ -743,6 +816,8 @@ com/java/certification/StringTests/TestQuiz.java
  com.java.certification.StringTests.TestQuiz
 com/java/certification/Optionals/PersonaOptionals.java
  com.java.certification.Optionals.PersonaOptionals
+com/java/certification/programacionFuncional/interfaesJDK/MainPartitioningBy.java
+ com.java.certification.programacionFuncional.interfaesJDK.MainPartitioningBy
 com/java/certification/herencia/ObjectoExtended.java
  com.java.certification.herencia.ObjectoExtended
 com/java/certification/part2/Q14Estudiar/FizzBuzz.java
@@ -796,35 +871,21 @@ com/java/certification/questions/Collecciones/PruebaListaEnlazada.java
 com/java/certification/Modifiers/LevelTwoClass.java
  com.java.certification.Modifiers.LevelOneClass
  com.java.certification.Modifiers.LevelTwoClass
-com/java/certification/Optionals/Persona.java
- com.java.certification.Optionals.Persona
-com/java/certification/programacionFuncional/interfaesJDK/MainGroupingBy.java
- com.java.certification.programacionFuncional.interfaesJDK.MainGroupingBy
-com/java/certification/en/Machine.java
- com.java.certification.en.Machine
-com/java/certification/hilos/videoProgramacionF/ThreadPoolSample.java
- com.java.certification.hilos.videoProgramacionF.ThreadPoolSample
-com/java/certification/hilos/videoProgramacionF/ConsumerAction.java
- com.java.certification.hilos.videoProgramacionF.ConsumerAction
-com/java/certification/hilos/videoProgramacionF/VolatileOrAtomic.java
- com.java.certification.hilos.videoProgramacionF.VolatileOrAtomic
-com/java/certification/questions/Q38/Q38.java
- com.java.certification.questions.Q38.Q38
-com/java/certification/hilos/videoProgramacionF/Application.java
- com.java.certification.hilos.videoProgramacionF.Application
- com.java.certification.hilos.videoProgramacionF.Application$ExampleOfThread
- com.java.certification.hilos.videoProgramacionF.Application$OtherExampleOfThread
-com/java/certification/polymorfismo/CastExtras.java
- com.java.certification.polymorfismo.CastExtras
- com.java.certification.polymorfismo.CastExtras$BaseClass
- com.java.certification.polymorfismo.CastExtras$NextClass
-com/java/certification/files/FileReader300.java
- com.java.certification.files.FileReader300
-com/java/certification/files/Pruebas.java
- com.java.certification.files.Pruebas
-com/java/certification/files/Ejemplo_File.java
- com.java.certification.files.Ejemplo_File
-com/java/certification/anotaciones/Nokia.java
- com.java.certification.anotaciones.Nokia
-com/java/certification/anotaciones/SmartPhone.java
- com.java.certification.anotaciones.SmartPhone
+secondTime/collector/Main.java
+ secondTime.collector.Main
+secondTime/polimorfismo/probando/InterfazParaClaseAbstr.java
+ secondTime.polimorfismo.probando.InterfazParaClaseAbstr
+secondTime/polimorfismo/probando/ClaseAbstractaTest.java
+ secondTime.polimorfismo.probando.ClaseAbstractaTest
+thirdTime/FunctionalInterfaces/Consumer/ConsumerBiConsumerExample.java
+ thirdTime.FunctionalInterfaces.Consumer.ConsumerBiConsumerExample
+thirdTime/FunctionalInterfaces/Suplier/SupplierExample.java
+ thirdTime.FunctionalInterfaces.Suplier.SupplierExample
+thirdTime/FunctionalInterfaces/Function/FunctionExample.java
+ thirdTime.FunctionalInterfaces.Function.FunctionExample
+thirdTime/FunctionalInterfaces/BiFunction/BiFunctionExample.java
+ thirdTime.FunctionalInterfaces.BiFunction.BiFunctionExample
+thirdTime/FunctionalInterfaces/UnaryOperator/UnaryOperatorExample.java
+ thirdTime.FunctionalInterfaces.UnaryOperator.UnaryOperatorExample
+thirdTime/FunctionalInterfaces/BinaryOperator/BinaryOperatorTwo.java
+ thirdTime.FunctionalInterfaces.BinaryOperator.BinaryOperatorTwo

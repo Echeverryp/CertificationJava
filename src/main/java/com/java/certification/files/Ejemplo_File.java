@@ -97,13 +97,13 @@ public class Ejemplo_File {
             PrintWriter printWriter=new PrintWriter(fileOutputStream);
             printWriter.println("PROBANDO");
             printWriter.close();
-
+            System.out.println("oli*¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨");
             //////////////////////////////
-            Path path= Paths.get("prueba.txt");
-            BasicFileAttributes attr=Files.readAttributes(path,BasicFileAttributes.class);
+            Path path= Paths.get("C:\\Users\\pablo\\Desktop\\Repositoris\\JavaCertification");
+            //BasicFileAttributes attr=Files.readAttributes(path,BasicFileAttributes.class);
+            System.out.println(path.normalize());
 
-
-            Files.lines(path).forEach(System.out::println);
+            //Files.lines(path).forEach(System.out::println);
             //BasicFileAttributes basicFileAttributes= Files.readAttributes(path,BasicFileAttributes.class);
 
 

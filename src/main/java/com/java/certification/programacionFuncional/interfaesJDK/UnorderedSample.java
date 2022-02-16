@@ -53,4 +53,6 @@ public class UnorderedSample {
     public Long unordered(){
         return lst.parallelStream().unordered().distinct().reduce(0L,Long::sum);
     }
+
+
 }

@@ -1,4 +1,7 @@
 package com.java.certification.polymorfismo;
+
+import java.util.Comparator;
+
 // Animal is our base class
 class Animal {
     public void printAnimal() {
@@ -26,6 +29,7 @@ public class DowncastExamples {
         // We create instances of Dog and Cat but assign them to
         // variables of type Animal
         Animal genericDog = new Dog();
+
         Animal genericCat = new Cat();
 
         // We cast now:

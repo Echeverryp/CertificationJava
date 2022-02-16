@@ -18,6 +18,8 @@ public class MainCollectToListOrSet {
         Collector<String,?, Set<String>> collector4=Collectors.toSet();
         Collector<String,?,Set<String>> collector5=Collectors.toCollection(TreeSet::new);
         Collector<String,?,Set<String>> collector6=Collectors.toUnmodifiableSet();
+
+
         printTypeOfCollections(collector);
         printTypeOfCollections(collector2);
         printTypeOfCollections(collector3);

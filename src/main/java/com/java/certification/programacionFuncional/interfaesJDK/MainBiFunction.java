@@ -17,7 +17,6 @@ public class MainBiFunction {
                 5,
                 List::contains));*/
 
-
         System.out.println(usingBiFunctionAndThen(
                 "Acigueña",
                 "eñaa",
